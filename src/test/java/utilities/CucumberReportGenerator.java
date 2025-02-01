@@ -15,7 +15,7 @@ public class CucumberReportGenerator
         File reportOutputDirectory = new File("target/cucumber-reports");
         List<String> jsonFiles = new ArrayList<>();
         jsonFiles.add("target/cucumber.json");
-        Configuration configuration = new Configuration(reportOutputDirectory, "My Project");
+        Configuration configuration = new Configuration(reportOutputDirectory, "Sauce Demo");
         configuration.addClassifications("Platform", "Windows");
         configuration.addClassifications("Browser", "Chrome");
         configuration.addClassifications("Environment", "QA");
